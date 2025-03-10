@@ -1,0 +1,182 @@
+body {
+    display: flex;
+    background-color: #573190;
+    padding: 20px;
+    flex-direction: column;
+  }
+  
+  .application {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start; /* Centers items inside .application */
+    margin-top: 50px; /* Optional: Adjust spacing from the top */
+    margin-bottom: 50px; /* Optional: Adjust spacing from the bottom */
+    width: 100%;
+    justify-content: flex-start; /* Keeps the items inside the application aligned to the top */
+    position: relative;
+  }
+  
+  .header {
+    display: flex;
+    flex-direction: column;  /* Stacks the items vertically */
+    justify-content: center; /* Aligns items to the top of the header */
+    align-items: flex-start;     /* Centers items horizontally inside header */
+    width: 1000px;
+  }
+  
+  .header h1, h2, p {
+    margin: 10px;
+    padding: 0;
+    line-height: 1.2;
+  }
+  
+  .header h1 {
+    color: #cbb8f5;
+  }
+  
+  .header h2 {
+    color: greenyellow;
+  }
+  
+  .header p {
+    color: white;
+  }
+  
+  #backButton {
+    width: auto; /* Ensures button does not stretch */
+    color:#cbb8f5;
+    border-radius: 20px;
+    border: 2px solid #cbb8f5;
+    background-color: #573190;
+    position: absolute;
+    top: 25px;
+    left: 25px;
+  }
+  
+  #backButton:hover {
+    cursor: pointer;
+    background-color: #a473cb;
+  }
+  
+  #appButton {
+    width: auto; /* Ensures button does not stretch */
+    color:#cbb8f5;
+    border-radius: 20px;
+    border: 2px solid #cbb8f5;
+    background-color: #573190;
+    position: absolute;
+    top: 25px;
+    right: 25px;
+  }
+  
+  #appButton:hover {
+    cursor: pointer;
+    background-color: #a473cb;
+  }
+
+  #submitButton {
+    margin-top: 75px;
+    margin-left: 575px;
+    padding: 10px;
+    width: 100px;
+    color:#a473cb;
+    border-radius: 20px;
+    border: 2px solid #a473cb;
+    background-color: #2ef994;
+  }
+  
+  #submitButton:hover {
+    cursor: pointer;
+    background-color: #91f9a0;
+  }
+  
+  
+  
+  .form {
+    padding: 20px;        
+    width: 100%;       /* Ensures the body takes up 100% of the viewport width */
+    height: 70vh;      /* Ensures the body takes up 100% of the viewport height (optional for full page height) */
+    box-sizing: border-box; /* Ensures padding/borders are included in width/height calculation */
+    border: solid 2px #6c5c90;
+    border-radius: 2px;
+    background-color: #483e60;
+    flex-direction: block;
+    margin-right: 30px;
+  }
+  .form h4{
+    color: rgb(192, 184, 184);
+  }
+  
+  .form textarea {
+    color: rgb(192, 184, 184);
+    background-color: darkslategrey;
+    border: none;
+    border-radius: 2px;
+    width: 50%;
+    height: 40px;
+    margin-right: 10px;
+  }
+  
+  .form input {
+    color: rgb(192, 184, 184);
+    background-color: darkslategrey;
+    border: none;
+    border-radius: 2px;
+    width: 50%;
+    height: 40px;
+    margin-right: 10px;
+  }
+  
+  
+  
+  .short-form {
+    display: flex; /* This enables flexbox */
+    flex-direction: column;
+    gap: 10px; /* Adds spacing between elements */
+  }
+  
+  .short-text {
+    display: flex;
+    flex-direction: row; /* Ensures the text elements stay in a row */
+    gap: 605px; /* Adds spacing between the labels */
+  }
+  
+  .short-input {
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+  }
+  
+  .title-form {
+    display: flex; /* This enables flexbox */
+    flex-direction: column;
+    gap: 10px; /* Adds spacing between elements */
+  }
+  
+  .bounty {
+    display: flex; /* Enables flexbox */
+    justify-content: space-between;
+  }
+  
+  .bounty-left {
+    display: flex;
+    flex-direction: column; /* Stacks elements vertically */
+    gap: 10px; /* Adds spacing between each input */
+    width: 50%; /* Adjust width as needed */
+  }
+  
+  .bounty-left input {
+    width: 100%;
+  }
+  
+  .bounty-right {
+    width: 50%;
+    margin-left: 20px;
+  }
+  
+  .bounty-right textarea {
+    margin-top: 9px;
+    width: 97%;
+    height: 167px;
+  }
+  
